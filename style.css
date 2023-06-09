@@ -1,9 +1,9 @@
 *{
+  font-family: 'Playfair', serif;
     margin: 0;
     padding: 0;
-    color:black ;
-    font-family: sans-serif;
-    letter-spacing: 1px;
+    color:black;
+   letter-spacing: 1px;
     font-weight: 300;
 }
 body{
@@ -12,8 +12,8 @@ body{
 nav{
     height: 6rem;
     width: 100vw;
-    background-color: #3498db;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    background-color:peru;
+    box-shadow: 0 3px 20px white;
     display: flex;
     position: fixed;
     z-index: 10;
@@ -206,12 +206,6 @@ nav{
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', 'Arial', sans-serif;
-  }
   
   /* HEADINGS */
   
