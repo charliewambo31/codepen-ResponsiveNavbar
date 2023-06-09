@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: #f2f5f7;
+    color:black ;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
@@ -23,10 +23,18 @@ nav{
 .logo{
     padding:1vh 1vw;
     text-align: center;
+    border-radius: 5%;
 }
-.logo img {
+/* .logo img {
     height: 5rem;
     width: 5rem;
+} */
+
+.logo img {
+  border-radius: 600%;
+  height: 5rem;
+  width: 5rem;
+ 
 }
 
 /*Styling Links*/
@@ -293,9 +301,10 @@ nav{
   
   .headline {
     width: 100%;
-    height: 50vh;
-    min-height: 350px;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    height: 100dvh;
+    min-height: 200px;
+    background: url('logo_viviane.jpg');
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80'); */
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -307,7 +316,7 @@ nav{
     height: auto;
     background-color: #f1f1f1;
     display: flex;
-    padding: 50px 20px;
+    padding: 40px 20px;
     justify-content: space-around;
   }
   
