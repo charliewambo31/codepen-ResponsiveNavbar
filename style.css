@@ -316,7 +316,7 @@ nav{
     height: auto;
     background-color: #f1f1f1;
     display: flex;
-    padding: 40px 20px;
+    padding: 40px 40px;
     justify-content: space-around;
   }
   
@@ -329,12 +329,12 @@ nav{
     color: #000;
     text-align: center;
     line-height: 1.4;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .feature-container img {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   /* SEARCH FUNCTION */
